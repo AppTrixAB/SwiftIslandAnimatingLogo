@@ -1,5 +1,5 @@
 <p align="center">
-    <img src ="https://github.com/SwiftIsland/island-app/blob/develop/logo.png" alt="Swift Island Logo" title="Swift Island 2023" width=200 />
+    <img src ="Logo.gif" alt="Swift Island Logo" title="Swift Island 2023" width=200 />
 </p>
 
 <p align="center">
