@@ -17,7 +17,7 @@
     </a>
 </p>
 
-# Swift Island Logo
+# Swift Island (Animating) Logo
 This repo contains the animating Swift Island logo. The purpose of this repo is to share the animation code and to allow others to make their own version of the logo if they wish to do so. These other version might be included in future versions of the Swift Island app.
 
 ## Contribute
