@@ -11,27 +11,11 @@
 		2AE43FBE2A6FC602009078E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE43FBD2A6FC602009078E3 /* ContentView.swift */; };
 		2AE43FC02A6FC603009078E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE43FBF2A6FC603009078E3 /* Assets.xcassets */; };
 		2AE43FC32A6FC603009078E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE43FC22A6FC603009078E3 /* Preview Assets.xcassets */; };
-		2AE43FCD2A6FC604009078E3 /* SwiftIslandAnimatingLogoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE43FCC2A6FC604009078E3 /* SwiftIslandAnimatingLogoTests.swift */; };
-		2AE43FD72A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE43FD62A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests.swift */; };
-		2AE43FD92A6FC604009078E3 /* SwiftIslandAnimatingLogoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE43FD82A6FC604009078E3 /* SwiftIslandAnimatingLogoUITestsLaunchTests.swift */; };
+		2AE43FE72A6FC63E009078E3 /* SwiftIslandLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE43FE62A6FC63E009078E3 /* SwiftIslandLogo.swift */; };
+		2AE43FEA2A6FC661009078E3 /* Color+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE43FE92A6FC661009078E3 /* Color+Helper.swift */; };
+		2AE43FEC2A6FC6DE009078E3 /* View+PercentageOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE43FEB2A6FC6DE009078E3 /* View+PercentageOffset.swift */; };
+		2AE43FF32A6FC7F2009078E3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE43FF22A6FC7F2009078E3 /* Triangle.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2AE43FC92A6FC604009078E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2AE43FB02A6FC602009078E3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2AE43FB72A6FC602009078E3;
-			remoteInfo = SwiftIslandAnimatingLogo;
-		};
-		2AE43FD32A6FC604009078E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2AE43FB02A6FC602009078E3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2AE43FB72A6FC602009078E3;
-			remoteInfo = SwiftIslandAnimatingLogo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2AE43FB82A6FC602009078E3 /* SwiftIslandAnimatingLogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftIslandAnimatingLogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,29 +23,14 @@
 		2AE43FBD2A6FC602009078E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AE43FBF2A6FC603009078E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE43FC22A6FC603009078E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2AE43FC82A6FC604009078E3 /* SwiftIslandAnimatingLogoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIslandAnimatingLogoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AE43FCC2A6FC604009078E3 /* SwiftIslandAnimatingLogoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIslandAnimatingLogoTests.swift; sourceTree = "<group>"; };
-		2AE43FD22A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIslandAnimatingLogoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AE43FD62A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIslandAnimatingLogoUITests.swift; sourceTree = "<group>"; };
-		2AE43FD82A6FC604009078E3 /* SwiftIslandAnimatingLogoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIslandAnimatingLogoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AE43FE62A6FC63E009078E3 /* SwiftIslandLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIslandLogo.swift; sourceTree = "<group>"; };
+		2AE43FE92A6FC661009078E3 /* Color+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Helper.swift"; sourceTree = "<group>"; };
+		2AE43FEB2A6FC6DE009078E3 /* View+PercentageOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+PercentageOffset.swift"; sourceTree = "<group>"; };
+		2AE43FF22A6FC7F2009078E3 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2AE43FB52A6FC602009078E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE43FC52A6FC604009078E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE43FCF2A6FC604009078E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				2AE43FBA2A6FC602009078E3 /* SwiftIslandAnimatingLogo */,
-				2AE43FCB2A6FC604009078E3 /* SwiftIslandAnimatingLogoTests */,
-				2AE43FD52A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests */,
 				2AE43FB92A6FC602009078E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				2AE43FB82A6FC602009078E3 /* SwiftIslandAnimatingLogo.app */,
-				2AE43FC82A6FC604009078E3 /* SwiftIslandAnimatingLogoTests.xctest */,
-				2AE43FD22A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +59,9 @@
 		2AE43FBA2A6FC602009078E3 /* SwiftIslandAnimatingLogo */ = {
 			isa = PBXGroup;
 			children = (
+				2AE43FF12A6FC7E0009078E3 /* Shapes */,
+				2AE43FE82A6FC649009078E3 /* Helpers */,
+				2AE43FE52A6FC635009078E3 /* Logos */,
 				2AE43FBB2A6FC602009078E3 /* SwiftIslandAnimatingLogoApp.swift */,
 				2AE43FBD2A6FC602009078E3 /* ContentView.swift */,
 				2AE43FBF2A6FC603009078E3 /* Assets.xcassets */,
@@ -110,21 +78,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2AE43FCB2A6FC604009078E3 /* SwiftIslandAnimatingLogoTests */ = {
+		2AE43FE52A6FC635009078E3 /* Logos */ = {
 			isa = PBXGroup;
 			children = (
-				2AE43FCC2A6FC604009078E3 /* SwiftIslandAnimatingLogoTests.swift */,
+				2AE43FE62A6FC63E009078E3 /* SwiftIslandLogo.swift */,
 			);
-			path = SwiftIslandAnimatingLogoTests;
+			path = Logos;
 			sourceTree = "<group>";
 		};
-		2AE43FD52A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests */ = {
+		2AE43FE82A6FC649009078E3 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				2AE43FD62A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests.swift */,
-				2AE43FD82A6FC604009078E3 /* SwiftIslandAnimatingLogoUITestsLaunchTests.swift */,
+				2AE43FE92A6FC661009078E3 /* Color+Helper.swift */,
+				2AE43FEB2A6FC6DE009078E3 /* View+PercentageOffset.swift */,
 			);
-			path = SwiftIslandAnimatingLogoUITests;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2AE43FF12A6FC7E0009078E3 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				2AE43FF22A6FC7F2009078E3 /* Triangle.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +123,6 @@
 			productReference = 2AE43FB82A6FC602009078E3 /* SwiftIslandAnimatingLogo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2AE43FC72A6FC604009078E3 /* SwiftIslandAnimatingLogoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2AE43FDF2A6FC604009078E3 /* Build configuration list for PBXNativeTarget "SwiftIslandAnimatingLogoTests" */;
-			buildPhases = (
-				2AE43FC42A6FC604009078E3 /* Sources */,
-				2AE43FC52A6FC604009078E3 /* Frameworks */,
-				2AE43FC62A6FC604009078E3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2AE43FCA2A6FC604009078E3 /* PBXTargetDependency */,
-			);
-			name = SwiftIslandAnimatingLogoTests;
-			productName = SwiftIslandAnimatingLogoTests;
-			productReference = 2AE43FC82A6FC604009078E3 /* SwiftIslandAnimatingLogoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2AE43FD12A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2AE43FE22A6FC604009078E3 /* Build configuration list for PBXNativeTarget "SwiftIslandAnimatingLogoUITests" */;
-			buildPhases = (
-				2AE43FCE2A6FC604009078E3 /* Sources */,
-				2AE43FCF2A6FC604009078E3 /* Frameworks */,
-				2AE43FD02A6FC604009078E3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2AE43FD42A6FC604009078E3 /* PBXTargetDependency */,
-			);
-			name = SwiftIslandAnimatingLogoUITests;
-			productName = SwiftIslandAnimatingLogoUITests;
-			productReference = 2AE43FD22A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,17 +132,10 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "AppTrix AB";
 				TargetAttributes = {
 					2AE43FB72A6FC602009078E3 = {
 						CreatedOnToolsVersion = 14.3;
-					};
-					2AE43FC72A6FC604009078E3 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 2AE43FB72A6FC602009078E3;
-					};
-					2AE43FD12A6FC604009078E3 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 2AE43FB72A6FC602009078E3;
 					};
 				};
 			};
@@ -220,8 +153,6 @@
 			projectRoot = "";
 			targets = (
 				2AE43FB72A6FC602009078E3 /* SwiftIslandAnimatingLogo */,
-				2AE43FC72A6FC604009078E3 /* SwiftIslandAnimatingLogoTests */,
-				2AE43FD12A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +167,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AE43FC62A6FC604009078E3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE43FD02A6FC604009078E3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,42 +174,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE43FE72A6FC63E009078E3 /* SwiftIslandLogo.swift in Sources */,
 				2AE43FBE2A6FC602009078E3 /* ContentView.swift in Sources */,
 				2AE43FBC2A6FC602009078E3 /* SwiftIslandAnimatingLogoApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE43FC42A6FC604009078E3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AE43FCD2A6FC604009078E3 /* SwiftIslandAnimatingLogoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE43FCE2A6FC604009078E3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AE43FD72A6FC604009078E3 /* SwiftIslandAnimatingLogoUITests.swift in Sources */,
-				2AE43FD92A6FC604009078E3 /* SwiftIslandAnimatingLogoUITestsLaunchTests.swift in Sources */,
+				2AE43FF32A6FC7F2009078E3 /* Triangle.swift in Sources */,
+				2AE43FEA2A6FC661009078E3 /* Color+Helper.swift in Sources */,
+				2AE43FEC2A6FC6DE009078E3 /* View+PercentageOffset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2AE43FCA2A6FC604009078E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2AE43FB72A6FC602009078E3 /* SwiftIslandAnimatingLogo */;
-			targetProxy = 2AE43FC92A6FC604009078E3 /* PBXContainerItemProxy */;
-		};
-		2AE43FD42A6FC604009078E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2AE43FB72A6FC602009078E3 /* SwiftIslandAnimatingLogo */;
-			targetProxy = 2AE43FD32A6FC604009078E3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2AE43FDA2A6FC604009078E3 /* Debug */ = {
@@ -467,82 +358,6 @@
 			};
 			name = Release;
 		};
-		2AE43FE02A6FC604009078E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6B3SHVL3L5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = se.apptrix.SwiftIslandAnimatingLogoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftIslandAnimatingLogo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftIslandAnimatingLogo";
-			};
-			name = Debug;
-		};
-		2AE43FE12A6FC604009078E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6B3SHVL3L5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = se.apptrix.SwiftIslandAnimatingLogoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftIslandAnimatingLogo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftIslandAnimatingLogo";
-			};
-			name = Release;
-		};
-		2AE43FE32A6FC604009078E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6B3SHVL3L5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = se.apptrix.SwiftIslandAnimatingLogoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftIslandAnimatingLogo;
-			};
-			name = Debug;
-		};
-		2AE43FE42A6FC604009078E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6B3SHVL3L5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = se.apptrix.SwiftIslandAnimatingLogoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftIslandAnimatingLogo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,24 +375,6 @@
 			buildConfigurations = (
 				2AE43FDD2A6FC604009078E3 /* Debug */,
 				2AE43FDE2A6FC604009078E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2AE43FDF2A6FC604009078E3 /* Build configuration list for PBXNativeTarget "SwiftIslandAnimatingLogoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2AE43FE02A6FC604009078E3 /* Debug */,
-				2AE43FE12A6FC604009078E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2AE43FE22A6FC604009078E3 /* Build configuration list for PBXNativeTarget "SwiftIslandAnimatingLogoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2AE43FE32A6FC604009078E3 /* Debug */,
-				2AE43FE42A6FC604009078E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
